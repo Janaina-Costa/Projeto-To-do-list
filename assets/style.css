@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Raleway:wght@500&family=Rock+Salt&family=Shalimar&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Raleway:wght@500&family=Rock+Salt&family=Shalimar&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background-color: rgba(135, 207, 235, 0.767);
+    
+    
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 70px;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+div.container{
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    height: 50rem;
+    width: 40rem;
+
+
+
+    background-image:url(./img/pexels-ekaterina-bolovtsova-6193090.jpg),linear-gradient(rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.644)100%);
+    background-size: cover;
+    
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+input[type=text]{
+    background-color: rgba(121, 104, 231, 0.712);
+    height: 28px;
+    width: 440px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 2px 4px 5px grey;
+    padding-left: 6px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+button{
+    margin-top: 40px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 9px;
+    border: solid 2px skyblue;
+    box-shadow: 2px 4px 5px grey;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+    
+}
+button:hover{
+    background-color: rgba(135, 207, 235, 0.438);
+    transition: 1s;
+    
+}
+
+#lista{
+    font-family: 'Raleway', sans-serif;
+    font-weight:800;
+
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    align-items: left;
+    margin: auto;
+
+    max-height: 350px;
+
+    margin-bottom: 490px;  
+}
+
+label{
+    text-align: justify;
+    margin-left: 5px;
+}
+
+:checked + label{
+    text-decoration: line-through;
+    color: green;
+    font-weight: 500;
+}
+
+.delete {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(128, 128, 128, 0.096);
+   
+}
+h4{
+    font-style: italic;
+    font-size: 22px;
+    padding: 10px;
+    margin: auto;
+    
+}
+ul{
+    display: flex;
+    margin: auto;
+}
+li{
+    margin-right: 10px;
+    list-style: none;
+   
+}
+li img{
+    width: 40px;
+}
