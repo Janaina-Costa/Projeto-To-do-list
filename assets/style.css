@@ -19,8 +19,9 @@ body{
 h1{
     font-family: 'Dancing Script', cursive;
     margin-top: 70px;
-    font-size: 80px;
+    font-size: 100px;
     text-align: center;
+    
 
 }
 
@@ -29,13 +30,12 @@ div.container{
     flex-direction: column;
 
     margin: auto;
-    height: 50rem;
+    height: 54rem;
     width: 40rem;
 
-
-
-    background-image:url(./img/pexels-ekaterina-bolovtsova-6193090.jpg),linear-gradient(rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.644)100%);
+    background-image:linear-gradient(rgba(168, 164, 164, 0.178), rgba(236, 229, 229, 0.288)100%), url(./img/fundo.jpeg);
     background-size: cover;
+    
     
 }
 
@@ -63,7 +63,7 @@ input[type=text]{
     font-family: 'Raleway', sans-serif;
 }
 
-button{
+button#btn-add{
     margin-top: 40px;
     padding: 10px;
     background-color: transparent;
@@ -74,7 +74,7 @@ button{
     margin-bottom: 30px;
     
 }
-button:hover{
+button#btn-add:hover{
     background-color: rgba(135, 207, 235, 0.438);
     transition: 1s;
     
@@ -83,6 +83,7 @@ button:hover{
 #lista{
     font-family: 'Raleway', sans-serif;
     font-weight:800;
+
 
     display: flex;
     flex-direction: column;
@@ -96,8 +97,10 @@ button:hover{
 }
 
 label{
-    text-align: justify;
-    margin-left: 5px;
+    text-align: end;
+    margin-left: 10px;
+    
+   
 }
 
 :checked + label{
@@ -108,6 +111,7 @@ label{
 
 .delete {
     display: flex;
+    
     align-items: center;
     margin-bottom: 10px;
   }
@@ -137,4 +141,21 @@ li{
 }
 li img{
     width: 40px;
+}
+.btn-exclusao{
+    
+    border-radius: unset;
+    margin: 5px 0px 1px;
+    margin-left: 10px;
+    bottom: 5px;
+    padding: 5px;
+    display: inline-flex;
+    border: none;
+    background-color: transparent;
+}
+
+.img-config{
+    width: 16px;
+    
+    
 }
